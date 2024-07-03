@@ -1,0 +1,756 @@
+
+/*=================================================
+Slider
+====================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.introduction {
+		margin-top: 60px;
+		margin-bottom: 40px;
+	}
+	.title {
+		font-size: 46px;
+		
+	} 
+}
+
+@media only screen and (max-width: 991px) {
+
+	.slider-area {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.right-side {
+		text-align: center;
+	}
+	.flex {
+		justify-content: center;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.title {
+		font-size: 50px;
+		line-height: 70px;
+	}
+	.introduction {
+		margin: 40px 0;
+	}
+	.introduction p {
+		font-size: 16px;
+	}
+	span.item {
+		height: unset;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.nav-link.active::after {
+		width: 14%;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.section-padding {
+		padding: 80px;
+	}
+	.title {
+		font-size: 46px;
+		line-height: 70px;
+	} 
+	.introduction {
+		margin: 40px 0;
+	}
+	.list {
+		height: 70px;
+	}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+	.slider-area {
+		padding-top: 65px;
+		padding-bottom: 45px;
+		padding-right: 16px;
+		padding-left: 16px;
+	}
+	.introduction {
+		margin: 40px 0;
+	}
+	.introduction p {
+		font-size: 15px;
+	}
+	.subtitle {
+		font-size: 13px;
+		margin-bottom: 0;
+	}
+	.title {
+		font-size: 39px;
+		line-height: 60px;
+		margin-bottom: 0;
+	}
+	.list {
+		margin-top: -19px;
+		height: 70px;
+	}
+	span.item {
+		padding-left: 47px;
+	}
+	.theme-switcher-label .switch-handle i {
+		top: 0;
+		left: -23px;
+		font-size: 18px;
+		height: 42px;
+		width: 43px;
+		padding-top: 12px;
+	}
+	.flex {
+		display: block;
+	}
+	.flex ul {
+		margin: 0;
+		padding: 0;
+	}
+	.button-about {
+		margin-bottom: 28px;
+	}
+	.material-scrolltop {
+		right: 0;
+	}
+}
+
+@media only screen and (max-width:480px) {
+
+	.theme-switcher-label .switch-handle i {
+		left: -18px;
+		font-size: 14px;
+		height: 37px;
+		width: 37px;
+	}
+	.learn-hire {
+		padding-left: 60px;
+	}
+
+	.find-with a {
+		font-size: 12px;
+		padding: 10px 18px;
+	}
+
+	.learn-hire a {
+		font-size: 12px;
+		padding: 10px 18px;
+	}
+	.title {
+		font-size: 29px;
+		line-height: 48px;
+	}
+	span.item {
+		padding-left: 33px;
+	}
+
+	.material-scrolltop.reveal i {
+		font-size: 18px;
+	}
+	.material-scrolltop.reveal {
+		height: 37px !important;
+		width: 37px !important;
+	}
+}
+
+/*=================================================
+About Area Responsive/About
+====================================================*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+	.relative span {
+		width: 73%;
+		left: 164px;
+		bottom: -15px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	.about-area {
+		padding-top: 80px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	.relative img {
+		border-radius: 0;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.relative span {
+		width: 78%;
+		left: 115px;
+	}
+	.relative img {
+		height: 364px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	.relative img {
+		border-radius: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 790px) {
+
+	.relative:before {
+		opacity: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.relative span {
+		width: 49%;
+		left: 229px;
+	}
+	.personal-info .center {
+		text-align: center;
+		margin-top: 45px;
+	}
+	.personal-info .list-1 {
+		text-align: right;
+	}
+	.personal-info .list-2 {
+		text-align: left;
+	}
+	.personal-info ul li {
+		display: block;
+	}
+	.personal-info ul li span {
+		display: block;
+		padding-right: 0;
+	}
+	.personal-details {
+		margin-bottom: 80px;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.about-area .section-title {
+		margin-bottom: 30px;
+	}
+	.relative span {
+		left: 103px;
+	}
+	.personal-info .center {
+		margin-top: 45px;
+		text-align: center;
+	}
+	.personal-info .list-1 {
+		text-align: right;
+	}
+	.personal-info .list-2 {
+		text-align: left;
+	}
+	.personal-details {
+		margin-bottom: 80px;
+	}
+	.personal-details li {
+		display: block;
+	}
+	.personal-info ul li span {
+		display: block;
+		padding-right: 0;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+	.about-area .section-title {
+		margin-bottom: 30px;
+	}
+	.about-area .container.infos {
+		padding-right: 24px;
+		padding-left: 24px;
+	}
+	.relative:before {
+		opacity: 0;
+	}
+	.relative span {
+		width: 92%;
+		left: 35px;
+	}
+	.personal-details {
+		margin-bottom: 20px;
+	}
+	.personal-info .center {
+		margin-top: 45px;
+		text-align: center;
+	}
+	.pl-35 {
+		padding-left: 11px;
+	}
+	.personal-details li {
+		display: block;
+	}
+	.icon-style {
+		margin: 0 auto;
+	}
+	.contact-info-another .contact-option {
+		display: block;
+		text-align: center;
+	}
+	.adrs {
+		margin-top: 12px;
+	}
+}
+
+/*=================================================
+About Area Responsive/Resume
+====================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	h3.common-title {
+		font-size: 51px;
+	}
+	.section-title p {
+		font-size: 16px;
+	}
+	.resume-single-list h4 {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.maintitle {
+		font-size: 27px;
+	}
+	.section-title p {
+		font-size: 17px;
+	}
+	h3.common-title {
+		font-size: 51px;
+	}
+	.resume-single-list {
+		padding: 45px 16px;
+	  }
+	.resume-single-list .inner p {
+		font-size: 15px;
+	  }
+    }
+
+@media only screen and (min-width: 768px) and (max-width: 855px) {
+
+	.container {
+			max-width: 742px !important;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.maintitle {
+		font-size: 27px;
+		margin: 15px 0;
+	}
+	.section-title p {
+		font-size: 16px;
+	}
+	.resume-single-list {
+		margin-top: 14px;
+		margin-bottom: 30px;
+	}
+	.education-list .resume-single-list:last-child {
+		margin-bottom: 0;
+	}
+	.experience-list .resume-single-list:last-child {
+		margin-bottom: 0;
+	}
+	.experience-list .resume-single-list:nth-child(1) {
+		margin-top: 0;
+	}
+	h3.common-title {
+		font-size: 47px;
+	}
+	.resume-single-list:before {
+		left: -17px;
+	}
+	span.bullet {
+		left: -24px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+	.about-area {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.personal-experience-inner {
+		margin-bottom: 0;
+		padding: 40px 0;
+	}
+	.personal-skills-inner {
+		padding: 40px 0;
+	}
+	.resume-single-list {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.resume-single-list:before {
+		left: -14px;
+	}
+	span.bullet {
+		left: -21px;
+		height: 15px;
+		width: 15px;
+	}
+	.resume-single-list:nth-child(3) {
+		margin-bottom: 0;
+	}
+	.resume-single-list:nth-child(6) {
+		margin-bottom: 0;
+	}
+	h3.common-title {
+		word-spacing: 0;
+		font-size: 39px;
+		padding: 0;
+	}
+	.maintitle {
+		margin: 0;
+		padding: 10px 0;
+		font-size: 25px;
+	}
+	.experience-list {
+		padding-left: 0;
+	}
+	.resume-single-list .inner p {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.color-switcher .switcher-btn {
+		padding: 8px 10px;
+		left: 169px;
+	}
+	.color-switcher .switcher-btn i {
+		font-size: 21px;
+	}
+	.color-switcher .theme-buttons-container .theme-buttons {
+		height: 30px;
+		width: 30px;
+	}
+	
+	.color-switcher h3 {
+		font-size: 16px;
+	}
+	.material-scrolltop.reveal {
+		height: 42px;
+		width: 43px;
+		z-index: 99;
+	}
+}
+
+@media only screen and (max-width:480px) {
+
+	h3.common-title {
+		font-size: 29px;
+	}
+    .resume-single-list h4 {
+		font-size: 20px;
+		line-height: 1.2;
+	  }
+}
+/*=================================================
+About Area Responsive/Skills
+====================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	.maintitle {
+		font-size: 27px;
+	}
+	 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		max-width: 833px;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.personal-skills-inner h3.common-title {
+		margin: 12px 0;
+		padding: 0;
+		word-spacing: 0;
+	}
+	.personal-skills-inner .design-skill .maintitle {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+	
+	.skill-bars {
+		margin: 0;
+	}
+	.skill-bars .bar .progress-line {
+		height: 5px;
+	}
+	.skill-bars .bar {
+		margin: 15px 0;
+	}
+	.section-title p {
+		margin: 10px 0;
+		font-size: 15px;
+	}
+}
+
+/*=================================================
+Responsive services Area/My services
+====================================================*/
+
+@media only screen and (max-width: 1199px) {
+	
+}
+@media only screen and (max-width: 991px) {
+	.section-padding {
+		padding: 80px 0;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.feature {
+		margin-bottom: 60px;
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+	body p {
+		font-size: 15px !important;
+	}
+	.services-area {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.feature {
+		margin-bottom: 60px;
+	}
+	.feature-content p {
+		line-height: 23px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	.testimonial-item .quote {
+		left: 198px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	#testimonial .gap {
+		padding-top: 12px;
+	}
+	.testimonial-item .quote {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.testimonial-item .quote {
+		left: 166px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.testimonial-item::before {
+		opacity: 0;
+	}
+}
+/*=================================================
+Responsive services Area/Counter
+====================================================*/
+
+@media only screen and (max-width: 991px) {
+	.testimonial {
+		margin-bottom: 80px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+	.counter .section-title {
+		margin-bottom: 25px;
+	}
+	
+}
+
+/*=================================================
+Responsive Portfolio Area
+====================================================*/
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+	.portfolio-area {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.mix .info p {
+		opacity: 0;
+	}
+	.fancybox-slide--image {
+		padding: 6px 12px;
+	}
+}
+
+/*=================================================
+Responsive Blog Area
+====================================================*/
+
+@media only screen and (max-width: 1199px) {
+	.single-blog {
+		margin-bottom: 20px;
+	}
+	.single-blog:nth-child(3) {
+		margin-bottom: 0;
+	}  
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+	.blog-area {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}
+
+/*=================================================
+Responsive Blog Model Area
+====================================================*/
+
+@media only screen and (max-width: 480px) {
+
+	.text-content h3 {
+		font-size: 20px;
+		line-height: 1.4;
+	}
+	.modal h3.common-title {
+		font-size: 26px;
+	}
+	.cn-btn .button-send {
+		padding: 12px 25px !important;
+		font-size: 13px;
+	}
+	.social-icons i {
+		font-size: 20px;
+	}
+}
+
+/*=================================================
+Responsive Contact Area 
+====================================================*/
+
+@media only screen and (max-width: 1199px) {
+	.contact-info-another {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.social-area ul li {
+		margin-right: 8px;
+	  }	 
+}
+
+@media only screen and (max-width: 991px) {
+	.nav-link.active::after {
+		width: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+	.social-area ul li {
+	
+		display: block;
+		margin-bottom: 35px;
+	  }
+	 
+	#submit i {
+		right: 72px;
+	}
+	.contact-address .social-area ul li a {
+		padding: 20px 29px;
+	}
+	
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	#submit i {
+		right: 151px;
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+	.contact-area {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.contact-form-wrapper .introduce {
+		padding: 32px;
+		margin-bottom: 40px;
+	}
+	#contact-form label {
+		font-size: 15px;
+	}
+	#submit i {
+		right: 46px;
+	}
+	.social-area ul li {
+		margin-right: 10px;
+		margin-bottom: 40px;
+	}
+	.social-area ul li a {
+		padding: 15px 20px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+
+	.social-area ul li a {
+		padding: 10px 15px;
+	}
+
+}
+
+/*=================================================
+Responsive Footer Area
+====================================================*/
+
+@media only screen and (max-width: 991px) {
+	.footer .description {
+		text-align: center;
+		margin-bottom: 2px;
+	}
+	.footer .description-1 {
+		float: none;
+		text-align: center;
+	}
+}
